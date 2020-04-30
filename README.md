@@ -5,7 +5,7 @@
 |key|value|
 |---|-----|
 |Name|Sho Yamada|
-|Age|30|
+|Age|32|
 |Blog|[ゆとり日記](http://rukiadia.hatenablog.jp/)|
 |Twitter|[@rukiadia](https://twitter.com/rukiadia)|
 |Qiita|[@rukiadia](http://qiita.com/rukiadia)|
@@ -17,40 +17,28 @@
 ### 言語
 
 - HTML5
-  - ejs
 - CSS
-  - Sass(scss)
+  - 基本的にSassを使用。
+  - CSS設計の際は[FLOCSS](https://github.com/hiloki/flocss)を元に少しだけルールを加えた設計手法を取る。
 - JavaScript
   - jQuery
-  - VanillaJS
-  - Dart
-  - ES2015~
+  - ES2015
+  - TypeScript
+    - 現職ではReactと併用してプロダクト運用を一部やっています。
+  - React + Redux + Express
 - PHP
-  - 前職、現職の業務で使用。CakePHP⇢Smarty⇢Symfonyという順番で使ってきています。
-- Python
-  - MonkeyRunner with Android
-    - アプリの自動テストを作る際に使用
+  - CakePHPとCodeIgniterをプロダクト運用した経験があります。 
 - Java (for Android)
   - 前職でAndroidアプリの開発をしていた時期があったので記載。
     - この業界に入ったきっかけの言語でもある。
 - Ruby(Ruby on Rails)
-  - 4系、5系を普段触っています。
-  - 現職になるまできちんと触ったことは無かったので、開発歴としては半年くらいです（2018/07現在）。
+  - 前職で1年半ほど、プロダクト運用していました。
+    - 当時のバージョンは4系→5系
 
 - 英語
   - 英文ドキュメントは問題なく読める。日本語と比較すると、少々多めに時間がかかる。
   - 海外カンファレンスに1人で行ける程度の英語力
     - Devfest.asia 2016に参加
-
-### フレームワーク
-
-- CakePHP
-  - 大手通信キャリアの業務システム構築
-- Meteor
-  - Databindingの勉強を兼ねて、趣味で触りつつ、外部の勉強会でLTを少々。
-    - https://scripty.connpass.com/event/10345/
-- React + Redux + Express
-  - 前職の業務で使用。Reactについては現職でも少しだけ使用しています。
 
 ### ライブラリ
 
@@ -59,21 +47,21 @@
     - ここ数ヶ月はjQueryを使用しておらず、基本的にはCSSアニメーションで賄っている。
 - html5shiv.js, Modernizr
   - ~IE8の後方互換用
-- underscore.js、lodash
+- lodash
   - 配列操作等、汎用的な処理実装時に使用
-    - buildを日常的に行うようになってからは、部分的にimportが可能なlodashに切り替えている。
+    - 以前はunderscoreを使っていましたが、今は部分的にimportが可能なlodashを使うようにしてます。
 - momont.js
   - JavaScript標準のDateオブジェクトが使いにくいため、日付計算は主にこれで。
     - 閏年計算等は自前でも実装できるものの、開発者それぞれの実装のブレや余計なバグ対応を失くすために使用。
 - Masonry、wow.js
-  - レガシーブラウザ対応が必須だった時代のアニメーション実装用に使用。
+  - レガシーブラウザ対応が必須だった時代、アニメーション実装用に使用。
 
 ### その他
 
 - エディタ
-  - IntelliJ IDEA
-    - 現職でPHPとRubyを両方使うため、WebStormから乗り換えました。
-  - Visual Code Studio
+  - PHPStorm、PyCharm
+    - 現職でCodeIgniterとDjangoを使うため、WebStormから乗り換えました。
+  - Visual Studio Code
 
 - ツール
   - Git
@@ -104,21 +92,16 @@
 ## 強み
 
 - 組織内への積極的な情報展開を継続している。
-  - Slack内にある技術共有用のチャンネルで随時情報を展開。
-    - 最近はCSSに関する海外の情報が多めになっている。
+  - Slack内にある技術共有用のチャンネルで情報を随時展開。
 
 - 継続的に改善を行う姿勢
   - 自分自身の仕事への取り組み方、コードのリファクタリング、社内の教育方針の改善や提案等
     - 細かい失敗を振り返り、地道に改善を重ねていくようにしている。
 
-- ビジネスを意識した仕事の進め方
-  - 以前は、エンジニアとして興味優先で技術選定を考えがちであった。現在はコストやカスタマーが得られるメリット第一で物事を考えるよう、是正している。
-
-## やったことはないが興味があるもの
-
-- APIの設計と実装
-  - 主流はRailsだが、Javaを使って実装を試そうと模索中・・。
-    - Railsが嫌いという訳ではないものの、思い入れのあるJavaでやりたいという個人的な思い。
+- 定期な振り返りを実施
+  - チーム単位の振り返りは仕事で、プライベートでは個人の振り返りもやるようにしています。
+  - 「良かったこと」「もっとよくできること」「やれてないこと」
+    - 個人で振り返ってるのはこれくらいです。
 
 ## 登壇歴
 
@@ -136,10 +119,21 @@
 - 2018/09/28 [Rejectcon 2018（builderscon tokyo 2018 番外編）
 ](https://techplay.jp/event/686258)
   - フロントエンドエンジニアが考えるべき事はたくさんある
+- 2019/02/08 [第２回AtomicDesignについて考える会](https://thinkatomicdesign.connpass.com/event/115574/)
+  - https://speakerdeck.com/rukiadia/atomic-designdeyi-shi-sitaikoto-inspired-by-flocss
+- 2019/11/15 [フロントエンドカンファレンス福岡 2019 前夜祭&リジェクトコン](https://fec-fukuoka.connpass.com/event/154737/)
+  - https://speakerdeck.com/rukiadia/chi-yan-du-miip-mitofalsezheng-siifu-kihe-ifang
+
+## 執筆歴
+
+- 2020/04 [WEB+DB PRESS vol.116](https://gihyo.jp/magazine/wdpress/archive/2020/vol116)
+  - フロントエンドのトラブルシューティング特集
 
 ## 職務経歴
 
-### 2017/07 - : 株式会社リブセンス
+### 2018/12〜 : 株式会社オミカレ
+
+### 2017/07 - 2018/11 : 株式会社リブセンス
 
 職業：フロントエンドエンジニア
 
