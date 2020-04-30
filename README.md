@@ -105,15 +105,10 @@
 
 ## 登壇歴
 
-### 過去の登壇
-
 - 2014/06/08 [天下一altJS武闘会](https://connpass.com/event/6402/)
   - Dartについて
 - 2014/12/15 [SCRIPTY#2](https://scripty.connpass.com/event/10345/)
   - meteorについて
-
-### 今後の予定
-
 - 2017/02/22 [HTML5とか勉強会](https://html5j.connpass.com/event/50524/)
   - パフォーマンス意識を組織内に根付かせる挑戦
 - 2018/09/28 [Rejectcon 2018（builderscon tokyo 2018 番外編）
