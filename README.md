@@ -17,6 +17,7 @@
 ### 言語
 
 - HTML5
+  - アクセシビリティを意識したマークアップ
 - CSS
   - 基本的にSassを使用。
   - CSS設計の際は[FLOCSS](https://github.com/hiloki/flocss)を元にルールを加えた設計手法を取る。
@@ -28,9 +29,7 @@
 - PHP
   - 5.3〜7.3
   - CakePHP
-    - 2系まで
-  - Symfony
-    - 1系まで
+    - 〜2系
   - CodeIgniter
     - 2系〜3系
 - Java (for Android)
@@ -44,22 +43,6 @@
   - 英文ドキュメントは問題なく読める。日本語と比較すると、少し多めに時間がかかる。
   - 海外カンファレンスに1人で行ける程度の英語力
     - [Devfest.asia 2016](https://2016.devfest.asia/)に参加
-
-### ライブラリ
-
-- velocity.js
-  - jQuery併用時のアニメーション処理改善によく使用していました。
-  - jQueryをあまり使わなくなってからは、animate.jsかTweenの方を使う機会が増えました。
-- html5shiv.js, Modernizr
-  - ~IE8の後方互換用
-- lodash
-  - 配列操作等、汎用的な処理実装時に使用
-    - 以前はunderscoreを使っていましたが、今は部分的にimportが可能なlodashを使うようにしてます。
-- momont.js
-  - JavaScript標準のDateオブジェクトが使いにくいため、日付計算は主にこれで。
-    - 閏年計算等は自前でも実装できるものの、開発者それぞれの実装のブレや余計なバグ対応を失くすために使用。
-- Masonry、wow.js
-  - レガシーブラウザ対応が必須だった時代、アニメーション実装用に使用。
 
 ### その他
 
